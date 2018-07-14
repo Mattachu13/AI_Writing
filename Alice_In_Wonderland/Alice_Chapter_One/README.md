@@ -1,5 +1,5 @@
 # First successful test
-## Trained using Alice's Adventures in Wonderland, chapter 1 (500 words)
+## Trained using Alice's Adventures in Wonderland, chapter 1 (output - 500 words)
 
 miles THAT mouse, wild funny tumbling Alice’s not’; doors managed first pretend expecting table, “poison” across shall ‘What across ‘without followed
 disagree nor except life growing, which miles expecting now ever friends severely game sadly end, opened pink creep garden, think!’ fallen key, you’re
