@@ -17,3 +17,10 @@ Important note: Due to freezing caused by suspected excessive power draw, these 
 power requirements.
 
 Investigate: Possibility of resuming failed jobs
+
+## Notes on Tensorflow installation
+Tensorflow should be installed with `pip install --no-cache-dir tensorflow`
+* If this fails, install the following dependencies independently:
+  * `setuptools, termcolor, enum34, six, absl-py, numpy, h5py, keras-applications, futures, grpcio, keras-preprocessing, funcsigs, pbr, mock, gast, protobuf, markdown, werkzeug, wheel, tensorboard, backports.weakref, astor, tensorflow`
+  * `h5py` requires `sudo apt-get install libhdf5-dev`
+  * If any of these cause issues, try `pip install --no-cache-dir --no-deps`
