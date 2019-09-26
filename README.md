@@ -1,8 +1,9 @@
 # AI Writing
 Experiments in AI writing using TensorFlow  
-Performed using Raspberry Pi 3B
 
-## Summary
+## Raspberry Pi 3B
+
+### Summary
 
 | Test |                         Training set                         | Training set size | Output size |    Results     |
 |------|--------------------------------------------------------------|-------------------|-------------|----------------|
@@ -18,9 +19,23 @@ power requirements.
 
 Investigate: Possibility of resuming failed jobs
 
-## Notes on Tensorflow installation
+### Notes on Tensorflow installation
 Tensorflow should be installed with `pip install --no-cache-dir tensorflow`
 * If this fails, install the following dependencies independently:
   * `setuptools, termcolor, enum34, six, absl-py, numpy, h5py, keras-applications, futures, grpcio, keras-preprocessing, funcsigs, pbr, mock, gast, protobuf, markdown, werkzeug, wheel, tensorboard, backports.weakref, astor, tensorflow`
   * `h5py` requires `sudo apt-get install libhdf5-dev`
   * If any of these cause issues, try `pip install --no-cache-dir --no-deps`
+
+## Ubuntu for Windows 10
+
+Successful test with Alice's Adventures in Wonderland + Through the Looking-Glass
+
+Test on The Count of Monte Cristo, but be aware of hardware; even on the test run above,
+the computer became very loud and CPU usage hit 100%
+
+### Notes on Tensorflow installation
+
+* (Install Python if required)
+* `sudo apt install python-pip`
+* `pip install tensorflow`
+* `wget https://github.com/hunkim/word-rnn-tensorflow/archive/master.zip`
