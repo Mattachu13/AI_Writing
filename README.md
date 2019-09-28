@@ -33,6 +33,12 @@ Successful test with Alice's Adventures in Wonderland + Through the Looking-Glas
 Test on The Count of Monte Cristo, but be aware of hardware; even on the test run above,
 the computer became very loud and CPU usage hit 100%
 
+### Summary
+
+| Run |       Training set        | Training set size | Output size |      Results      |
+|-----|---------------------------|-------------------|-------------|-------------------|
+|  1  | The Count of Monte Cristo |   459,893 words   |  500 words  | Somewhat coherent |
+
 ### Notes on Tensorflow installation
 
 * (Install Python if required)
